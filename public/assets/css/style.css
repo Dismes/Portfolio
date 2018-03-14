@@ -1,6 +1,25 @@
 #name{
-    font-size: 600%;
-    font-family: impact;
+   
 }
 
 html, body { height: 100%; }
+
+.fullpage{
+    height:100%;
+    padding-top: 20%;
+}
+
+#page1{
+    background-color: #ff6100;
+}
+#page2{
+    background-color: #701099;
+}
+name{
+    font-size: 600%;
+    font-family: impact;
+}
+#page3{
+    background-color:#03c19e;
+    padding-top: 0%;
+}
