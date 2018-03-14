@@ -2,3 +2,5 @@
     font-size: 600%;
     font-family: impact;
 }
+
+html, body { height: 100%; }
