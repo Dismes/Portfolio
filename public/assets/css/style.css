@@ -1,9 +1,17 @@
 
 html, body { height: 100%; }
 
+
+@media screen and (max-width: 600px) {
+    div.example {
+      display: none;
+    }
+  }
+
 .fullpage{
     height:100%;
-    padding-top: 10%;
+    padding-top: 5%;
+    word-wrap: keep-all;
 }
 
 #page1{
@@ -13,7 +21,7 @@ html, body { height: 100%; }
     background-color: #701099;
 }
 name{
-    font-size: 600%;
+    font-size: 500%;
     font-family: impact;
 }
 #page3{
