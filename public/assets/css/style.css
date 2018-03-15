@@ -1,37 +1,45 @@
 
-html, body { height: 100%; }
 
-
-@media screen and (max-width: 600px) {
-    div.example {
-      display: none;
+    html,
+    body {
+        height: 100%;
     }
-  }
 
-.fullpage{
-    height:100%;
-    padding-top: 5%;
-    overflow: auto
-}
+    name {
+        font-family: impact;
+        font-size: 300%;
+    }
 
-#page1{
-    background-color: #ff6100;
-}
-#page2{
-    background-color: #701099;
-}
-name{
-    font-size: 500%;
-    font-family: impact;
-}
-#page3{
-    background-color:#03c19e;
-    padding-top: 3%;
-}
-#page4{
-    background-color: #c40f97;
+    #page1 {
+        background-color: #ff6100;
+    }
+    #page2 {
+        background-color: #701099;
+    }
+    #page3 {
+        background-color: #03c19e;
+        padding-top: 3%;
+    }
+    #page4 {
+        background-color: #c40f97;
+    }
+    #page5 {
+        background-color: #cde03e
+    }
 
-}
-#page5{
-    background-color: #cde03e
+    
+    .fullpage {
+        height: 100%;
+        padding-top: 5%;
+        overflow: auto
+    }
+
+@media screen and (min-width: 576px) {
+
+   
+    name {
+        font-size: 500%;
+        
+    }
+    
 }
