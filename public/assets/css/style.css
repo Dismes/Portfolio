@@ -11,7 +11,7 @@ html, body { height: 100%; }
 .fullpage{
     height:100%;
     padding-top: 5%;
-    word-wrap: keep-all;
+    overflow: auto
 }
 
 #page1{
