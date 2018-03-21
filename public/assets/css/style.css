@@ -1,32 +1,57 @@
 html,
 body {
     height: 100%;
+    width: 100%;
 }
 
+Bname{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1600%;
+
+}
 name {
     font-family: impact;
     font-size: 300%;
 }
 
 #page1 {
-    background-color: #ff6100;
+    color: aliceblue;
+    background-image: url('../images/pexels-photo-14676.png');
+    background-repeat: no-repeat;
+   
+    background-position: center; 
 }
 
 #page2 {
-    background-color: #701099;
+    background-image: url('../images/pexels-photo-844297.jpeg');
+    background-repeat: no-repeat;
+   
+    background-position: center; 
 }
 
+
 #page3 {
-    background-color: #03c19e;
-    padding-top: 3%;
+    background-image: url('../images/pexels-photo-640781.jpeg');
+    background-repeat: no-repeat;
+   color: #87aeed;
+    background-position: center; 
+
 }
 
 #page4 {
-    background-color: #c40f97;
+    background-image: url('../images/fall-autumn-red-season.jpg');
+    background-repeat: no-repeat;
+
+    background-position: center; 
+    color:white;
 }
 
 #page5 {
-    background-color: #cde03e
+    background-image: url('../images/pexels-photo-490466.jpeg');
+    background-repeat: no-repeat;
+   
+    background-position: center; 
+
 }
 
 .bottom {
