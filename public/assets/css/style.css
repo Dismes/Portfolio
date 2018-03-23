@@ -1,12 +1,14 @@
 html,
 body {
-    height: 100%;
-    width: 100%;
+    height: auto;
+    
 }
+
 
 Bname{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 1600%;
+    font-size: 400%;
+    margin-top: 20px;
 
 }
 name {
@@ -18,7 +20,7 @@ name {
     color: aliceblue;
     background-image: url('../images/pexels-photo-14676.png');
     background-repeat: no-repeat;
-   
+   padding-top: 10%;
     background-position: center; 
 }
 
@@ -76,4 +78,19 @@ name {
     name {
         font-size: 500%;
     }
+    Bname{
+        font-size: 1400%;
+        
+    }
+    html,
+body {
+    height: 100%;
+    width: 100%;
 }
+}
+@media screen and (max-width: 576px) {
+
+   
+}
+
+
