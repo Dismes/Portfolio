@@ -1,12 +1,16 @@
 html,
 body {
-    height: 100%;
-    width: 100%;
+    
+  
+}
+
+.MainContainer{
+    height: 500%;
 }
 
 Bname{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 1600%;
+    font-size: 600%;
 
 }
 name {
@@ -16,41 +20,30 @@ name {
 
 #page1 {
     color: aliceblue;
-    background-image: url('../images/pexels-photo-14676.png');
-    background-repeat: no-repeat;
-   
-    background-position: center; 
+    height: 100%;
+    background-color: Red;
 }
 
 #page2 {
-    background-image: url('../images/pexels-photo-844297.jpeg');
-    background-repeat: no-repeat;
-   
-    background-position: center; 
+    height: 100%;
+    background-color: orange;
 }
 
 
 #page3 {
-    background-image: url('../images/pexels-photo-640781.jpeg');
-    background-repeat: no-repeat;
+    background-color: yellow;
    color: #87aeed;
-    background-position: center; 
+
 
 }
 
 #page4 {
-    background-image: url('../images/fall-autumn-red-season.jpg');
-    background-repeat: no-repeat;
-
-    background-position: center; 
+    background-color: green;
     color:white;
 }
 
 #page5 {
-    background-image: url('../images/pexels-photo-490466.jpeg');
-    background-repeat: no-repeat;
-   
-    background-position: center; 
+    background-color: lightblue;
 
 }
 
@@ -67,13 +60,21 @@ name {
 }
 
 .fullpage {
-    height: 100%;
+    
     padding-top: 5%;
-    overflow: auto
+    
 }
 
 @media screen and (min-width: 576px) {
     name {
-        font-size: 500%;
+        font-size: 400%;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    Bname{
+     
+        font-size: 1600%;
+    
     }
 }
