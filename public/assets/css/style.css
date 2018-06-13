@@ -8,6 +8,7 @@ body {
     height: 500%;
 }
 
+
 Bname{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 600%;
@@ -77,4 +78,19 @@ name {
         font-size: 1600%;
     
     }
+    Bname{
+        font-size: 1400%;
+        
+    }
+    html,
+body {
+    height: 100%;
+    width: 100%;
 }
+}
+@media screen and (max-width: 576px) {
+
+   
+}
+
+
